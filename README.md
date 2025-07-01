@@ -1,6 +1,4 @@
-Absolutely, Bryan—let’s give your library the spotlight it deserves. Here's a draft README that highlights your console system's purpose, features, and usage with clarity and flair. We can iterate on tone and format depending on whether you want this to feel formal, fun, beginner-focused, or professional-dev-oriented:
 
----
 
 # 🖥️ Con::Console – A Modern Console API for Windows C++
 
