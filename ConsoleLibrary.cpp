@@ -1,4 +1,11 @@
+/*
+======================
+EXAMPLE: Hi-Lo Guessing Game
+======================
 
+This example demonstrates the use of the console library to play the hi-lo guessing game.
+
+*/
 #include "Console.h"
 #include <string>
 #include <random>
