@@ -1,4 +1,4 @@
-#include "C:\Users\Engin\OneDrive\Documents\Programming Lib\ConsoleLibrary\ConsoleLibrary\Console.h"
+#include "Console.h"
 
 namespace Con {
 
