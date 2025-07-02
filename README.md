@@ -2,6 +2,9 @@
 
 # 🖥️ Con::Console – A Modern Console API for Windows C++
 
+by Bryan Shortall
+EngineerShorty@email.com
+
 **Con::Console** is an object-oriented console abstraction for C++ on Windows. Designed to bring clarity and power to console I/O, it replaces the verbose legacy of `std::cout` with a simpler, (I think) more intuitive way to interact with input and output from the console.  It also makes features that are available on modern consoles easier to use (like changing colors and moving the cursor).  
 
 If you do need or want the streaming functionality of cin and cout, that's certainly the better tool.  But if you don't need that functionality, this may be a more straightforward tool for you.
@@ -28,7 +31,7 @@ If you do need or want the streaming functionality of cin and cout, that's certa
 
 ```cpp
 #include "Console.h"
-using namespace Con;
+using namespace Con; //optional - you can use the more verbose Con::console when referencing the console object.
 ```
 
 ### 👋 Print Hello, World
@@ -43,7 +46,7 @@ int main() {
 ### 🎨 Set text color and style
 
 ```cpp
-console.txtSetColor(RED);
+console.txtSetColor(Con::RED);
 console.txtBoldOn();
 console.println("Warning: Something went wrong!");
 ```
@@ -82,7 +85,6 @@ This library uses Windows console APIs under the hood. A cross-platform rewrite 
 ## 🛣 Roadmap Ideas
 
 - [ ] Linux/ANSI-compatible backend
-- [ ] Stream-style `operator<<` bridge for power users
 - [ ] Input validators and hints
 - [ ] Embedded themes for styled CLI tools
 
