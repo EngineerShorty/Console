@@ -13,15 +13,17 @@ If you do need or want the streaming functionality of 'std::cin' and 'std::cout'
 
 ## ✨ Features at a Glance
 
-- 🔤 Easy-to-read `print()` and `println()` methods for all major types
-- 🎨 Text styling: bold, underline, italic, blinking, strike-through
-- 🌈 Foreground and background color support with clean `ScreenColor` enums
-- 🧭 Full cursor control: position, save/restore, movement, and screen metrics
-- 💬 Input handling for strings, ints, floats, and typed styles
-- 🐞 Debug-only output with `printerr()` toggle
-- 📋 Clipboard support, console resizing, and window title control
-- 🔁 Singleton design (`Console::getInstance()`) ensures consistent global access
-- 🔔 Usability touches like `pause()`, `ringBell()`, and `screenClear()`
+- The console is made available to the programmer as an object with various methods
+  available for leveraging all the available features and actions
+- Easy-to-read `print()` and `println()` methods for all major types
+- Text styling: bold, underline, italic, blinking, strike-through
+- Foreground and background color support with clean `ScreenColor` enums
+- Full cursor control: position, save/restore, movement, and screen metrics
+- Input handling for strings, ints, floats, and typed styles
+- Debug-only output with `printerr()` toggle
+- Clipboard support, console resizing, and window title control
+- Singleton design (`Console::getInstance()`) ensures consistent global access
+- Usability touches like `pause()`, `ringBell()`, and `screenClear()`
 
 ---
 
