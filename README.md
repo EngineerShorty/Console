@@ -1,6 +1,6 @@
 
 
-# 🖥️ Con::Console – A Modern Console API for Windows C++
+# 🖥️ Con::Console – An Alternative, OOP-Based Console API for Windows C++
 
 by Bryan Shortall
 EngineerShorty@email.com
