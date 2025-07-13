@@ -5,7 +5,7 @@
 by Bryan Shortall
 EngineerShorty@email.com
 
-**Con::Console** is an object-oriented console abstraction for C++ on Windows. Designed to bring clarity and power to console I/O, it replaces the verbose legacy of `std::cout` with a simpler, (I think) more intuitive way to interact with input and output from the console.  It also makes features that are available on modern consoles easier to use (like changing colors and moving the cursor).  
+**Con::Console** is an object-oriented console abstraction for C++ on Windows. Designed to bring clarity and power to console I/O, it replaces the verbose legacy of `std::cout` with a simpler, (I think) more intuitive way to interact with input and output from the console.  It also makes features that are available on modern consoles easier to use (like changing colors, naming the console window, and moving the cursor).  
 
 If you do need or want the streaming functionality of 'std::cin' and 'std::cout', that's certainly the better tool.  But if you don't need that functionality, this may be a more straightforward tool for you.
 
