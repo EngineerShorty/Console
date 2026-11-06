@@ -17,6 +17,17 @@ namespace Con {
 		WHITE
 	};
 
+	// defaults to white font on black background w/ no special effects
+	struct TextFormat {
+		ScreenColor textColor = WHITE;
+		ScreenColor backColor = BLACK;
+		bool bold = false;
+		bool underline = false;
+		bool italic = false;
+		bool blinking = false;
+		bool strikeThru = false;
+	}
+	
 	class Console {
 	public:
 		static Console& getInstance();
