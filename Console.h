@@ -3,6 +3,9 @@
 #include <Windows.h>
 #include <string>
 #include <stdexcept>
+#include <stack>
+
+
 
 namespace Con {
 
@@ -162,6 +165,10 @@ namespace Con {
 		Console& operator=(const Console&) = delete;
 
 		bool curVisible = true;
+
+		TextFormat mainText;
+		TextFormat inputFormat = { .foreColor = ScreenColor::CYAN };
+		std::stack<TextFormat> formatStack;
 
 		bool txBold = false;
 		bool txUnderline = false;
